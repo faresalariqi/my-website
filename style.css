@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    position: relative;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px; /* Adjusted margin */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ 
+#About {
+    background-color: rgba(197, 192, 192, 0.37);
+    padding: 20px;
+    text-align: center;
+}
+.text { 
+    margin-bottom: 20px;
+}
+.image {
+    display: inline-block;
+    width: 30%; /* Adjust as needed */
+    text-align: center;
+    margin: 0 10px; /* Add spacing between images */
+    
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: Add a border around images */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+video {
+    width: 100%; /* Make the video fill the container */
+    height: auto;
+    display: block; /* Remove default inline styling */
+    margin-bottom: 20px; /* Add some space below the video */
+}
+iframe {
+    width: 100%; /* Make the iframe fill the container */
+    height: 400px; /* Set a fixed height or adjust as needed */
+    display: block; /* Remove default inline styling */
+    margin-bottom: 20px; /* Add some space below the video */
+}
+#Contact { 
+    background-color: rgba(197, 192, 192, 0.233);
+    padding: 20px;
+}
+
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+    /* float: right; Remove this line */
+    margin-top: auto;
+}
+main section:last-child {
+    margin-bottom: 80px; /* Adjust the margin as needed */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
